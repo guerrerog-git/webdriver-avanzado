@@ -37,6 +37,7 @@ public class CalendarioTest {
         WebElement submit = driver.findElement(By.xpath("//form/input[@type='submit']"));
         submit.submit();
 
+
         Thread.sleep(3000);
 
         //Si quieren buscar texto en cualquier parte de la pagina
@@ -44,7 +45,7 @@ public class CalendarioTest {
         WebElement bodyElement = driver.findElement(By.tagName("body"));
         String textoEnPagina = bodyElement.getText();
 
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
 
         driver.quit();
 
