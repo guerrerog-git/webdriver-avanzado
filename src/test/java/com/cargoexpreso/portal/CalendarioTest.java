@@ -15,7 +15,7 @@ public class CalendarioTest {
     @Test
     public void validarCalendario() throws InterruptedException {
 
-        String url = "https://acortar.link/4FUR8E";
+        String url = "http://demo.guru99.com/test/";
         WebDriver driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

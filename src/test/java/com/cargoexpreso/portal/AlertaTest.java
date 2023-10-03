@@ -11,7 +11,7 @@ public class AlertaTest {
 
     @Test
     public void validarAlerta() {
-        String url = "https://acortar.link/SuXZgP";
+        String url = "http://softwaretestingplace.blogspot.com/2017/03/javascript-alert-test-page.html";
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         pausar(3000);
